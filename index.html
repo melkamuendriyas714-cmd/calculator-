@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="#" name="adder">
+
+            <label for="num1">First Number</label><br>
+            <input type="number" id="num1"><br><br>
+
+            <label for="num2">Second Number</label><br>
+            <input type="number" id="num2"><br><br>
+
+            <input type="button"
+                   value="add"
+                   onclick="addNbumber()">
+
+             <input type="button"
+                   value="Subtract"
+                   onclick="subNumber()">
+
+             <input type="button"
+                   value="Multiply"
+                   onclick="multiplication()">
+
+             <input type="button"
+                   value="Division"
+                   onclick="division()"><br><br>
+
+            <label for="result">Result</label><br>
+            <input type="number" id="result"><br><br>
+
+            <input type="reset" value="Clear" 
+            style="background-color: red;
+            color: white;">
+
+        </form>
+
+    </div>
+
+    <script src="script1.js"></script>
+
+    
+</body>
+</html>
